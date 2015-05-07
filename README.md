@@ -9,9 +9,9 @@ add `SpriteKit.framework`
 
 On your ViweController,import this.
 
-#import <SpriteKit/SpriteKit.h>
-#import "NFXBubbleModel.h"
-#import "NFXBubblePoolView.h"
+`\#import <SpriteKit/SpriteKit.h>`
+`\#import "NFXBubbleModel.h"`
+`\#import "NFXBubblePoolView.h"`
 
 `NFXBubblePoolView` can init for initWithFrame of initWithaDecoder(storyboard).
 
