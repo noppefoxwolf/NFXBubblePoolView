@@ -18,9 +18,10 @@ ViewControllerで以下をインポートします
 データはint数値型です。
 
 NFXBubblePoolView use SpriteKit.
-So `SpriteKit.framework` add your project.(but, NFXBubblePoolView isn't need your spriteKit skill.)
+So `SpriteKit.framework` add your project.(but, NFXBubblePoolView dosn't need your spriteKit skill.)
 
 add `SpriteKit.framework`
+
 add NFXBubblePoolView folder.
 
 On your ViewController,import this.
@@ -29,11 +30,12 @@ On your ViewController,import this.
 `#import "NFXBubbleModel.h"`
 `#import "NFXBubblePoolView.h"`
 
-`NFXBubblePoolView` can init for initWithFrame or initWithaDecoder(storyboard).
+`NFXBubblePoolView` can initialize for initWithFrame or initWithaDecoder(storyboard).
 
-You just call `addModel:(NFXBubbleModel*)model`,add one Node.
+You just call `addModel:(NFXBubbleModel*)model` and add one Node.
 
-`NFXBubbleModel` is simple.this need title,color,data.
-Data is int value.
+`NFXBubbleModel` is simple.
+This need title,color and data.
+`data` is int value.
 
 
